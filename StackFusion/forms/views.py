@@ -9,20 +9,15 @@ from StackFusion.mailer import Mailer
 
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+    return render(request, '../templates/index.html', context=None)
+
 
 @csrf_exempt
 def data(request):
     data = FormModel.objects.all()
     if request.method == 'GET':
         serializer = FormModelSerializer(data, many=True)
-        # mail = Mailer()
-        # mail.send_messages(subject='My App account verification',
-        #                    template='email.html',
-        #                    context={'customer': mail},
-        #                    to_emails=['leoghsay@gmail.com'])
-
-        return JsonResponse(serializer.data, safe=False,status=200)
+        return JsonResponse(serializer.data, safe=False, status=200)
 
     elif request.method == 'POST':
         data = JSONParser().parse(request)
@@ -31,16 +26,19 @@ def data(request):
         # print(serializer.error_messages)
         # print(serializer.is_valid())
         if serializer.is_valid(raise_exception=True):
-            # print(serializer.validated_data)
+            print(serializer.validated_data['email'])
             serializer.save()
-            print(serializer.data)
+            sendingMail(serializer.validated_data['email'])
             return JsonResponse(serializer.data, status=201)
         return HttpResponseRedirect("/error")
     elif request.method == "OPTIONS":
         return HttpResponseRedirect("/error")
-    #     {
-    #         res.writeHead(200, {"Content-Type": "application/json"});
-    #     res.end();
-    #     }
 
-# Create your views here.
+
+def sendingMail(mailId):
+    mail = Mailer()
+    print(mailId)
+    mail.send_messages(subject='Thanks For Registering',
+                       template='email.html',
+                       context={'customer': mail},
+                       to_emails=[mailId])

@@ -1,1 +1,4 @@
-loginSecrets.py
+venv
+*.pyc
+staticfiles
+.env

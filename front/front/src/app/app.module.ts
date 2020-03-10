@@ -1,4 +1,5 @@
 import { HttpClientModule } from '@angular/common/http';
+// import { HttpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
@@ -15,12 +16,12 @@ const appRoutes: Routes = [
     data: { title: 'User' }
   },
   {
-    path: 'app-user-add',
+    path: '',
     component: UserAddComponent,
     data: { title: 'Add User' }
   },
-  { path: '',
-    redirectTo: '/users',
+  { path: 'app-user-add',
+    redirectTo: '',
     pathMatch: 'full'
   }
 ];
@@ -35,7 +36,7 @@ const appRoutes: Routes = [
     RouterModule.forRoot(appRoutes),
     FormsModule,
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [DatePipe],
   bootstrap: [AppComponent]

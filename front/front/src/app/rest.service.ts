@@ -46,5 +46,4 @@ export class RestService {
       return of(result as T);
     };
   }
-
 }

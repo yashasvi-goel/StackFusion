@@ -25,7 +25,6 @@ export class UserAddComponent implements OnInit {
     this.dateMin=new Date(this.today.getFullYear() - 18, this.today.getMonth(), this.today.getDate());
   }
   
-
   addUser() {
     this.userData.dateOfBirth=this.temp.dateS.toString()
     this.rest.addUser(this.userData).subscribe((result) => {
@@ -39,21 +38,3 @@ export class UserAddComponent implements OnInit {
 interface Validator<T extends FormControl> {
   (c:T): {[error: string]:any};
 }
-// abstract class AbstractControl {
-//   abstract class AbstractControl {
-//   }
-// }
-
-      
-// type ValidationErrors = {
-//   [key: string]: any;
-// };    
-// interface ValidatorFn {
-//   (control: AbstractControl): ValidationErrors | null
-// }    
-// export function forbiddenNameValidator(nameRe: RegExp): ValidatorFn {
-//   return (control: AbstractControl): {[key: string]: any} | null => {
-//     const forbidden = nameRe.test(control.value);
-//     return forbidden ? {'forbiddenName': {value: control.value}} : null;
-//   };
-// }

@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbb0fca1-6e35-40f9-832e-0f3f3fcbcfb2" name="Default Changelist" comment="" />
+    <list default="true" id="dbb0fca1-6e35-40f9-832e-0f3f3fcbcfb2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/goto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.requirements.txt.swp" beforeDir="false" afterPath="$PROJECT_DIR$/.requirements.txt.swp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StackFusion/mailer.py" beforeDir="false" afterPath="$PROJECT_DIR$/StackFusion/mailer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StackFusion/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/StackFusion/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StackFusion/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/StackFusion/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/forms/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginSecrets.py" beforeDir="false" afterPath="$PROJECT_DIR$/loginSecrets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/front/src/app/user-add/user-add.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front/front/src/app/user-add/user-add.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/front/src/app/user-add/user-add.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../front/front/src/app/user-add/user-add.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/front/src/app/user/user.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front/front/src/app/user/user.component.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,11 +41,28 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="Python Script" />
+        <option value="Setup Script" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1YlIGrAaaXpUFtWK1HG4Lk35YwU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -41,10 +72,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/requirements.txt" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -55,6 +88,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/../attempt1" />
       <recent name="$PROJECT_DIR$/../Attemp1/" />
       <recent name="$PROJECT_DIR$/" />
@@ -92,7 +126,7 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
@@ -164,7 +198,10 @@
       <workItem from="1583588723094" duration="26220000" />
       <workItem from="1583660683761" duration="5438000" />
       <workItem from="1583674764294" duration="24274000" />
-      <workItem from="1583764212889" duration="4962000" />
+      <workItem from="1583764212889" duration="6900000" />
+      <workItem from="1583829906589" duration="4934000" />
+      <workItem from="1583836918671" duration="716000" />
+      <workItem from="1583837721120" duration="19175000" />
     </task>
     <servers />
   </component>
@@ -180,42 +217,42 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="278" y="58" width="800" height="677" key="#Inspections/0.27.1366.741@0.27.1366.741" timestamp="1583522906218" />
-    <state x="352" y="120" width="666" height="553" key="#StackFusion" timestamp="1583660767720">
+    <state x="352" y="120" width="666" height="553" key="#StackFusion" timestamp="1583837849108">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="352" y="120" width="666" height="553" key="#StackFusion/0.27.1366.741@0.27.1366.741" timestamp="1583660767720" />
-    <state x="255" y="27" width="873" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583661101025">
+    <state x="352" y="120" width="666" height="553" key="#StackFusion/0.27.1366.741@0.27.1366.741" timestamp="1583837849108" />
+    <state x="255" y="27" width="873" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583843128861">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="255" y="27" width="873" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1583661101025" />
+    <state x="255" y="27" width="873" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1583843128861" />
     <state x="452" y="125" width="515" height="542" key="EnvironmentVariablesDialog" timestamp="1583592487542">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="452" y="125" width="515" height="542" key="EnvironmentVariablesDialog/0.27.1366.741@0.27.1366.741" timestamp="1583592487542" />
-    <state x="454" y="140" width="447" height="513" key="FileChooserDialogImpl" timestamp="1583662071457">
+    <state x="454" y="140" width="447" height="513" key="FileChooserDialogImpl" timestamp="1583843073791">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="454" y="140" width="447" height="513" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1583662071457" />
-    <state width="1320" height="308" key="GridCell.Tab.0.bottom" timestamp="1583806841820">
+    <state x="454" y="140" width="447" height="513" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1583843073791" />
+    <state width="1320" height="246" key="GridCell.Tab.0.bottom" timestamp="1583861125109">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="308" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1583806841820" />
-    <state width="1320" height="308" key="GridCell.Tab.0.center" timestamp="1583806841819">
+    <state width="1320" height="246" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1583861125109" />
+    <state width="1320" height="246" key="GridCell.Tab.0.center" timestamp="1583861125108">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="308" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1583806841819" />
-    <state width="1320" height="308" key="GridCell.Tab.0.left" timestamp="1583806841819">
+    <state width="1320" height="246" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1583861125108" />
+    <state width="1320" height="246" key="GridCell.Tab.0.left" timestamp="1583861125107">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="308" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1583806841819" />
-    <state width="1320" height="308" key="GridCell.Tab.0.right" timestamp="1583806841819">
+    <state width="1320" height="246" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1583861125107" />
+    <state width="1320" height="246" key="GridCell.Tab.0.right" timestamp="1583861125108">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="308" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1583806841819" />
-    <state x="90" y="27" width="1191" height="730" key="SettingsEditor" timestamp="1583730390322">
+    <state width="1320" height="246" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1583861125108" />
+    <state x="112" y="38" width="1191" height="730" key="SettingsEditor" timestamp="1583849026561">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="90" y="27" width="1191" height="730" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1583730390322" />
+    <state x="112" y="38" width="1191" height="730" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1583849026561" />
     <state x="388" y="104" width="580" height="584" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1" timestamp="1583636246257">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -224,10 +261,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="100" y="125" width="1166" height="543" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.27.1366.741@0.27.1366.741" timestamp="1583651609876" />
-    <state x="339" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1583764227145">
+    <state x="544" y="289" key="com.intellij.ide.util.TipDialog" timestamp="1583837735940">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="339" y="224" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1583764227145" />
+    <state x="544" y="289" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1583837735940" />
     <state x="347" y="27" width="662" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583636102055">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

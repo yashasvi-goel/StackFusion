@@ -3,7 +3,7 @@
   <component name="FacetManager">
     <facet type="django" name="Django">
       <configuration>
-        <option name="rootFolder" value="$MODULE_DIR$/../StackFusion" />
+        <option name="rootFolder" value="$MODULE_DIR$" />
         <option name="settingsModule" value="StackFusion/settings.py" />
         <option name="manageScript" value="manage.py" />
         <option name="environment" value="&lt;map/&gt;" />
@@ -13,19 +13,17 @@
     </facet>
   </component>
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$/../StackFusion">
-      <excludeFolder url="file://$MODULE_DIR$/../StackFusion/venv" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/venv1" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.6 (StackFusion)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.6 (StackFusion) (2)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="StackFusionFront" />
+  </component>
+  <component name="PackageRequirementsSettings">
+    <option name="requirementsPath" value="$MODULE_DIR$/requirements.txt" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
-    <option name="TEMPLATE_FOLDERS">
-      <list>
-        <option value="$MODULE_DIR$/../StackFusion/templates" />
-      </list>
-    </option>
   </component>
 </module>

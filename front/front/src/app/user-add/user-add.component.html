@@ -18,7 +18,7 @@
       <form novalidate>
       <label>Name:
             <input id="name" name="name" class="form-control" placeholder="Your Name"
-                required minlength="1" [(ngModel)]="userData.name" #name="ngModel" pattern="[a-zA-Z']*" >
+                required minlength="1" [(ngModel)]="userData.name" #name="ngModel" pattern="[a-zA-Z' ]*" >
                         <div *ngIf="name.invalid && (name.dirty || name.touched)" class="alert alert-danger">
                         <div *ngIf="name.errors.required">Name is required.</div>
                         <div *ngIf="name.errors.minlength">Name must be at least 1 characters long.</div>
@@ -34,7 +34,7 @@
           </div>
       </label><br>
       <label>Email Address:
-        <input required type="email" name="input" [(ngModel)]="userData.email" minlength="4" pattern="[a-zA-z\._]+@[a-zA-z]+\.[a-zA-Z]+" placeholder="Your Email Address" #email="ngModel">
+        <input required type="email" name="input" [(ngModel)]="userData.email" minlength="4" pattern="[a-zA-z\._0-9]+@[a-zA-z]+\.[a-zA-Z]+" placeholder="Your Email Address" #email="ngModel">
         <div *ngIf="email.invalid && (email.dirty || email.touched)" class="alert alert-danger">
         <div *ngIf="email.errors.pattern || email.errors.minlength">Enter a Valid Email</div>
         <div *ngIf="email.errors.required">Email is required.</div>
@@ -49,8 +49,4 @@
       </div>
     </form>
     </div>
-    <!-- <h1>{{userData.dateOfBirth}}</h1>>
-    <h1>{{temp.dateS|date: 'yyyy-MM-dd'}}</h1>> -->
-    <!-- <button (click)="addUser()" [disable]="email.invalid||name.invalid||contact.invalid||dateOfBirth.invalid">Save</button> -->
-    <!-- <button (click)="addUser()">Save</button> -->
   </div>

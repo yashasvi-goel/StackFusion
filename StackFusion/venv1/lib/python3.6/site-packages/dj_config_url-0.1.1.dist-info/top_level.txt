@@ -1,0 +1,2 @@
+dj_database_url
+dj_config_url
