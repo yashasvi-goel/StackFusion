@@ -1,0 +1,56 @@
+<script>
+  angular.module('emailExample', [])
+    .controller('ExampleController', ['$scope', function($scope) {
+      $scope.email = {
+        text: 'me@example.com'
+      };
+      $scope.myFunction = function() {
+        userData.dateOfBirth=temp.dateS.toString();
+      };
+    }]);
+</script>
+<head>
+  <link href="user-add.component.css" rel="stylesheet">
+</head>
+<div>
+    <h2>User Registration</h2>
+    <div>
+      <form novalidate>
+      <label>Name:
+            <input id="name" name="name" class="form-control" placeholder="Your Name"
+                required minlength="1" [(ngModel)]="userData.name" #name="ngModel" pattern="[a-zA-Z']*" >
+                        <div *ngIf="name.invalid && (name.dirty || name.touched)" class="alert alert-danger">
+                        <div *ngIf="name.errors.required">Name is required.</div>
+                        <div *ngIf="name.errors.minlength">Name must be at least 1 characters long.</div>
+                        <div *ngIf="name.errors.pattern">Name must have alphabets only.</div>
+                        </div>
+      </label><br>
+      <label>Contact:
+        <input name="contact" id="contact" [(ngModel)]="userData.contact"  placeholder="Your Contact" required minlength="10" maxlength="10" #contact="ngModel" pattern="[0-9]*"/>
+        <div *ngIf="contact.invalid && (contact.dirty || contact.touched)" class="alert alert-danger">
+          <div *ngIf="contact.errors.required">Contact is required.</div>
+          <div *ngIf="contact.errors.minlength">Contact must be at least 10 digits long.</div>
+          <div *ngIf="contact.errors.pattern">Contact must have digits only.</div>
+          </div>
+      </label><br>
+      <label>Email Address:
+        <input required type="email" name="input" [(ngModel)]="userData.email" minlength="4" pattern="[a-zA-z\._]+@[a-zA-z]+\.[a-zA-Z]+" placeholder="Your Email Address" #email="ngModel">
+        <div *ngIf="email.invalid && (email.dirty || email.touched)" class="alert alert-danger">
+        <div *ngIf="email.errors.pattern || email.errors.minlength">Enter a Valid Email</div>
+        <div *ngIf="email.errors.required">Email is required.</div>
+        </div>
+      </label><br>
+      <label>Date Of Birth:
+        <input required type="date" name="dateS" max="{{dateMin | date:'yyyy-MM-dd'}}" ng-change="myFunction()" [(ngModel)]="temp.dateS" placeholder="Your DoB" #dob="ngModel" />
+      </label><br>
+      <div class="btn-group">
+        <button type="button"
+        [disabled]="(email.invalid||name.invalid||contact.invalid)" (click)="addUser()" >Save</button>
+      </div>
+    </form>
+    </div>
+    <!-- <h1>{{userData.dateOfBirth}}</h1>>
+    <h1>{{temp.dateS|date: 'yyyy-MM-dd'}}</h1>> -->
+    <!-- <button (click)="addUser()" [disable]="email.invalid||name.invalid||contact.invalid||dateOfBirth.invalid">Save</button> -->
+    <!-- <button (click)="addUser()">Save</button> -->
+  </div>

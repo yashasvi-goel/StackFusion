@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dbb0fca1-6e35-40f9-832e-0f3f3fcbcfb2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YlIGrAaaXpUFtWK1HG4Lk35YwU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/../StackFusionFront/node_modules/protractor" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../attempt1" />
+      <recent name="$PROJECT_DIR$/../Attemp1/" />
+      <recent name="$PROJECT_DIR$/" />
+      <recent name="$PROJECT_DIR$/Back" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django server.StackFusion">
+    <configuration name="E2E Tests (StackFusionFront)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/../StackFusionFront/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-package value="$PROJECT_DIR$/../StackFusionFront/node_modules/protractor" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="E2E Tests (untitled1)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/../untitled1/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application (untitled1)" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="StackFusion" type="Python.DjangoServer" factoryName="Django server">
+      <module name="StackFusion" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="StackFusion.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <module name="StackFusion" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server (StackFusionFront)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/../StackFusionFront/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server (untitled1)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/../untitled1/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dbb0fca1-6e35-40f9-832e-0f3f3fcbcfb2" name="Default Changelist" comment="" />
+      <created>1583510661518</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583510661518</updated>
+      <workItem from="1583510667441" duration="17912000" />
+      <workItem from="1583588723094" duration="26220000" />
+      <workItem from="1583660683761" duration="5438000" />
+      <workItem from="1583674764294" duration="24274000" />
+      <workItem from="1583764212889" duration="4962000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="357" y="87" width="642" height="619" key="#Angular_CLI_Server_(untitled1)" timestamp="1583589109948">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="357" y="87" width="642" height="619" key="#Angular_CLI_Server_(untitled1)/0.27.1366.741@0.27.1366.741" timestamp="1583589109948" />
+    <state x="278" y="58" width="800" height="677" key="#Inspections" timestamp="1583522906218">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="278" y="58" width="800" height="677" key="#Inspections/0.27.1366.741@0.27.1366.741" timestamp="1583522906218" />
+    <state x="352" y="120" width="666" height="553" key="#StackFusion" timestamp="1583660767720">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="352" y="120" width="666" height="553" key="#StackFusion/0.27.1366.741@0.27.1366.741" timestamp="1583660767720" />
+    <state x="255" y="27" width="873" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583661101025">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="255" y="27" width="873" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1583661101025" />
+    <state x="452" y="125" width="515" height="542" key="EnvironmentVariablesDialog" timestamp="1583592487542">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="452" y="125" width="515" height="542" key="EnvironmentVariablesDialog/0.27.1366.741@0.27.1366.741" timestamp="1583592487542" />
+    <state x="454" y="140" width="447" height="513" key="FileChooserDialogImpl" timestamp="1583662071457">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="454" y="140" width="447" height="513" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1583662071457" />
+    <state width="1320" height="308" key="GridCell.Tab.0.bottom" timestamp="1583806841820">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="308" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1583806841820" />
+    <state width="1320" height="308" key="GridCell.Tab.0.center" timestamp="1583806841819">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="308" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1583806841819" />
+    <state width="1320" height="308" key="GridCell.Tab.0.left" timestamp="1583806841819">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="308" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1583806841819" />
+    <state width="1320" height="308" key="GridCell.Tab.0.right" timestamp="1583806841819">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="308" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1583806841819" />
+    <state x="90" y="27" width="1191" height="730" key="SettingsEditor" timestamp="1583730390322">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="90" y="27" width="1191" height="730" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1583730390322" />
+    <state x="388" y="104" width="580" height="584" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1" timestamp="1583636246257">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="388" y="104" width="580" height="584" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1/0.27.1366.741@0.27.1366.741" timestamp="1583636246257" />
+    <state x="100" y="125" width="1166" height="543" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1583651609876">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="100" y="125" width="1166" height="543" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.27.1366.741@0.27.1366.741" timestamp="1583651609876" />
+    <state x="339" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1583764227145">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="339" y="224" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1583764227145" />
+    <state x="347" y="27" width="662" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583636102055">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="347" y="27" width="662" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1366.741@0.27.1366.741" timestamp="1583636102055" />
+    <state x="0" y="27" width="863" height="741" key="find.popup" timestamp="1583588825944">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="0" y="27" width="863" height="741" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1583588825944" />
+  </component>
+</project>
