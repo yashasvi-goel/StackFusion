@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dbb0fca1-6e35-40f9-832e-0f3f3fcbcfb2" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/templates/goto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.requirements.txt.swp" beforeDir="false" afterPath="$PROJECT_DIR$/.requirements.txt.swp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StackFusion/mailer.py" beforeDir="false" afterPath="$PROJECT_DIR$/StackFusion/mailer.py" afterDir="false" />
@@ -10,11 +11,8 @@
       <change beforePath="$PROJECT_DIR$/StackFusion/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/StackFusion/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forms/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/forms/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginSecrets.py" beforeDir="false" afterPath="$PROJECT_DIR$/loginSecrets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginSecrets.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/front/src/app/user-add/user-add.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front/front/src/app/user-add/user-add.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/front/src/app/user-add/user-add.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../front/front/src/app/user-add/user-add.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/front/src/app/user/user.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front/front/src/app/user/user.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +199,7 @@
       <workItem from="1583764212889" duration="6900000" />
       <workItem from="1583829906589" duration="4934000" />
       <workItem from="1583836918671" duration="716000" />
-      <workItem from="1583837721120" duration="19175000" />
+      <workItem from="1583837721120" duration="21171000" />
     </task>
     <servers />
   </component>
@@ -225,6 +223,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="255" y="27" width="873" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1583843128861" />
+    <state x="416" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583863328207">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="416" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1366.741@0.27.1366.741" timestamp="1583863328207" />
     <state x="452" y="125" width="515" height="542" key="EnvironmentVariablesDialog" timestamp="1583592487542">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -233,22 +235,22 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="454" y="140" width="447" height="513" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1583843073791" />
-    <state width="1320" height="246" key="GridCell.Tab.0.bottom" timestamp="1583861125109">
+    <state width="1320" height="246" key="GridCell.Tab.0.bottom" timestamp="1583863337859">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="246" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1583861125109" />
-    <state width="1320" height="246" key="GridCell.Tab.0.center" timestamp="1583861125108">
+    <state width="1320" height="246" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1583863337859" />
+    <state width="1320" height="246" key="GridCell.Tab.0.center" timestamp="1583863337858">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="246" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1583861125108" />
-    <state width="1320" height="246" key="GridCell.Tab.0.left" timestamp="1583861125107">
+    <state width="1320" height="246" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1583863337858" />
+    <state width="1320" height="246" key="GridCell.Tab.0.left" timestamp="1583863337857">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="246" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1583861125107" />
-    <state width="1320" height="246" key="GridCell.Tab.0.right" timestamp="1583861125108">
+    <state width="1320" height="246" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1583863337857" />
+    <state width="1320" height="246" key="GridCell.Tab.0.right" timestamp="1583863337858">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="246" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1583861125108" />
+    <state width="1320" height="246" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1583863337858" />
     <state x="112" y="38" width="1191" height="730" key="SettingsEditor" timestamp="1583849026561">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
