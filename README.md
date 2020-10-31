@@ -1,6 +1,7 @@
 # StackFusion
 
-Django-Angular based solution for assignment given by Algo Focus.
+Django-Angular based solution for the assignment given by Algo Focus.
+
 
 Contact in need of any issues/queries. 
 
